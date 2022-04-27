@@ -17,9 +17,7 @@ namespace FileSystem
             else
                 rootDir = args[0].ToString();
 
-            if (!File.Exists(rootDir))
-                return;
-
+           
                 datetimeend = datetimeend - TimeSpan.FromMinutes(30);
 
             //вызываем рекурсивный метод
